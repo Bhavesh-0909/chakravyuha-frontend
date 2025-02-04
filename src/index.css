@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Turret+Road:wght@200;300;400;500;700;800&display=swap');
+@import "tailwindcss";
+
+
+
+@layer base {
+  html {
+    font-family: 'Turret Road', sans-serif;
+  }
+}
+
+
+/* Add background image styles */
+.h-screen {
+    background-image: url("https://i.ytimg.com/vi/X-XZx1o_w-A/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDJAQ9n0xReA2UghZBuQzN2BzcXXA");
+}
+  
