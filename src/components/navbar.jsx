@@ -23,7 +23,7 @@ const Navbar = () => {
 
                 {/* Navigation Links */}
                 <div className={`fixed lg:relative top-[64px] lg:top-0 left-0 w-full lg:w-auto h-screen lg:h-auto bg-black lg:bg-transparent transform transition-transform duration-300 ease-in-out ${isOpen ? 'translate-x-0' : '-translate-x-full lg:translate-x-0'}`}>
-                    <ul className="flex flex-col lg:flex-row space-y-4 lg:space-y-0 lg:space-x-8 p-6 lg:p-0">
+                    <ul className="flex flex-col bg-black/50 lg:flex-row space-y-4 lg:space-y-0 lg:space-x-8 p-6 lg:p-0">
                         <li>
                             <a href="#" className="text-white block text-lg hover:text-gray-300 transition-colors duration-300 relative group">
                                 Home
