@@ -1,6 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Navbar from "./components/navbar";
+import LeaderBoard from './pages/LeaderBoard'
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/leader" element={<LeaderBoard />} />
       </Routes>
     </main>
   )

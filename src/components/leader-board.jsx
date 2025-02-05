@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 const Leaderboard = () => {
   // Sample leaderboard data (Replace with actual data)
   const players = [
